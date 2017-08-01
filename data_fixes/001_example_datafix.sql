@@ -1,1 +1,2 @@
-select TRIM(TRAILING ' ' from TRIM(LEADING ' ' from Name)) from care_ws.jci_bogus_data;
+update care_ws.jci_bogus_data
+set name = TRIM(TRAILING ' ' from TRIM(LEADING ' ' from Name)) ;
