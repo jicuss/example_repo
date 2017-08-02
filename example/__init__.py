@@ -1,4 +1,4 @@
-__version__ = '1.6.1rc0'
+__version__ = '2.0.0rc0'
 
 import argparse, os
 
