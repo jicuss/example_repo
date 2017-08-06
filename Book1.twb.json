@@ -11,7 +11,10 @@
     ],
     "column": [
         {
-            "calculation": "",
+            "calculation": {
+                "@class": "tableau",
+                "@formula": "[CAN_ACCESS_LOUNGE]*3 + 5"
+            },
             "name": "[Calculation_6664623797010735104]",
             "datatype": "integer",
             "caption": "example_calc_field",
@@ -19,7 +22,10 @@
             "type": "quantitative"
         },
         {
-            "calculation": "",
+            "calculation": {
+                "@class": "tableau",
+                "@formula": "[storage_mode] + 5 + 5 + 6 + 7"
+            },
             "name": "[Calculation_6664623797088100353]",
             "datatype": "integer",
             "caption": "Calculation1",
@@ -27,15 +33,21 @@
             "type": "quantitative"
         },
         {
-            "calculation": "",
+            "calculation": {
+                "@class": "tableau",
+                "@formula": "[CAN_ACCESS_FAQ_FEEDBACK]"
+            },
             "name": "[Calculation_6664623797088473090]",
             "datatype": "integer",
-            "caption": "Calculation2",
+            "caption": "sdcsdcsdc",
             "role": "measure",
             "type": "quantitative"
         },
         {
-            "calculation": "",
+            "calculation": {
+                "@class": "tableau",
+                "@formula": "DATE([CAN_ACCESS_LOUNGE]*3)"
+            },
             "name": "[example_calc_field (copy)]",
             "datatype": "date",
             "caption": "something_diff3",
@@ -43,7 +55,10 @@
             "type": "quantitative"
         },
         {
-            "calculation": "",
+            "calculation": {
+                "@class": "tableau",
+                "@formula": "DATE([CAN_ACCESS_LOUNGE]*3)"
+            },
             "name": "[example_calc_field (copy)]",
             "datatype": "date",
             "caption": "something_diff3",
