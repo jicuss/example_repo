@@ -1,4 +1,4 @@
 /* +direct */
-/*+ direct */
-/* + direct */
-/*   +direct     */
+/* +direct */
+/* +direct */
+/* +direct */
