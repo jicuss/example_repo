@@ -1773,6 +1773,9 @@
       <column caption='CREATED AT (axc communities direct)' datatype='datetime' name='[CREATED_AT (axc_communities_direct)]' role='dimension' type='ordinal' />
       <column caption='CREATED AT (axc roles direct)' datatype='datetime' name='[CREATED_AT (axc_roles_direct)]' role='dimension' type='ordinal' />
       <column caption='Created At' datatype='datetime' name='[CREATED_AT]' role='dimension' type='ordinal' />
+      <column caption='scdsdcs' datatype='integer' name='[Calculation_6211237978748821504]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[force_outer]' />
+      </column>
       <column caption='example_calc_field' datatype='integer' name='[Calculation_6664623797010735104]' role='measure' type='quantitative'>
         <calculation class='tableau' formula='[CAN_ACCESS_LOUNGE]*3 + 5' />
       </column>
@@ -1780,7 +1783,7 @@
         <calculation class='tableau' formula='[storage_mode] + 5 + 5' />
       </column>
       <column caption='sdcsdcsdc' datatype='integer' name='[Calculation_6664623797088473090]' role='measure' type='quantitative'>
-        <calculation class='tableau' formula='[CAN_ACCESS_FAQ_FEEDBACK]' />
+        <calculation class='tableau' formula='[CAN_ACCESS_FAQ_FEEDBACK] + 5' />
       </column>
       <column caption='Default Locale' datatype='string' name='[DEFAULT_LOCALE]' role='dimension' type='nominal' />
       <column caption='Description' datatype='string' name='[DESCRIPTION]' role='dimension' type='nominal' />
