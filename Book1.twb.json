@@ -1,0 +1,121 @@
+{
+    "db_connection": [
+        {
+            "username": "dbadmin",
+            "dbname": "analytics",
+            "class": "vertica",
+            "server": "192.168.1.57",
+            "port": "5433",
+            "schema": "CAT_TY11_DWH"
+        }
+    ],
+    "column": [
+        {
+            "calculation": {
+                "@class": "tableau",
+                "@formula": "[force_outer]"
+            },
+            "name": "[Calculation_6211237978748821504]",
+            "datatype": "integer",
+            "caption": "scdsdcs",
+            "role": "measure",
+            "type": "quantitative"
+        },
+        {
+            "calculation": {
+                "@class": "tableau",
+                "@formula": "[storage_mode] sd"
+            },
+            "name": "[Calculation_6211237978753257473]",
+            "datatype": "real",
+            "caption": "Calculation2",
+            "role": "measure",
+            "type": "quantitative"
+        },
+        {
+            "calculation": {
+                "@class": "tableau",
+                "@formula": "[CAN_ACCESS_LOUNGE]*3 + 5+4"
+            },
+            "name": "[Calculation_6664623797010735104]",
+            "datatype": "integer",
+            "caption": "new_example_calc_field",
+            "role": "measure",
+            "type": "quantitative"
+        },
+        {
+            "calculation": {
+                "@class": "tableau",
+                "@formula": "[storage_mode] + 5 + 5 + 1"
+            },
+            "name": "[Calculation_6664623797088100353]",
+            "datatype": "integer",
+            "caption": "Calcu",
+            "role": "measure",
+            "type": "quantitative"
+        },
+        {
+            "calculation": {
+                "@class": "tableau",
+                "@formula": "[CAN_ACCESS_FAQ_FEEDBACK] + 5 + 3"
+            },
+            "name": "[Calculation_6664623797088473090]",
+            "datatype": "integer",
+            "caption": "sdcsdcsdc",
+            "role": "measure",
+            "type": "quantitative"
+        },
+        {
+            "calculation": {
+                "@class": "tableau",
+                "@formula": "DATE([CAN_ACCESS_LOUNGE]*3)"
+            },
+            "name": "[example_calc_field (copy)]",
+            "datatype": "date",
+            "caption": "something_diff3",
+            "role": "dimension",
+            "type": "quantitative"
+        },
+        {
+            "calculation": {
+                "@class": "tableau",
+                "@formula": "DATE([CAN_ACCESS_LOUNGE]*3)"
+            },
+            "name": "[example_calc_field (copy)]",
+            "datatype": "date",
+            "caption": "something_diff3",
+            "role": "dimension",
+            "type": "quantitative"
+        }
+    ],
+    "data_connection": [
+        {
+            "table": "[CARE_STG].[AXC_BOOKMARKS_CAN_DIRECT]",
+            "connection": "vertica.0ramdxd094z4j111le4wa1kyxkh2",
+            "#text": "",
+            "type": "table",
+            "name": "axc_bookmarks_can_direct"
+        },
+        {
+            "table": "",
+            "connection": "vertica.0ramdxd094z4j111le4wa1kyxkh2",
+            "#text": "select * from tables",
+            "type": "text",
+            "name": "custom_sql_query"
+        },
+        {
+            "table": "[CARE_STG].[AXC_COMMUNITIES_DIRECT]",
+            "connection": "vertica.0ramdxd094z4j111le4wa1kyxkh2",
+            "#text": "",
+            "type": "table",
+            "name": "axc_communities_direct"
+        },
+        {
+            "table": "[CARE_STG].[AXC_ROLES_DIRECT]",
+            "connection": "vertica.0ramdxd094z4j111le4wa1kyxkh2",
+            "#text": "",
+            "type": "table",
+            "name": "axc_roles_direct"
+        }
+    ]
+}
