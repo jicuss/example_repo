@@ -46,18 +46,18 @@
         {
             "calculation": {
                 "@class": "tableau",
-                "@formula": "[storage_mode] + 5 + 5"
+                "@formula": "[storage_mode] + 5 + 5 + 1"
             },
             "name": "[Calculation_6664623797088100353]",
             "datatype": "integer",
-            "caption": "Calculation1",
+            "caption": "Calcu",
             "role": "measure",
             "type": "quantitative"
         },
         {
             "calculation": {
                 "@class": "tableau",
-                "@formula": "[CAN_ACCESS_FAQ_FEEDBACK] + 5"
+                "@formula": "[CAN_ACCESS_FAQ_FEEDBACK] + 5 + 3"
             },
             "name": "[Calculation_6664623797088473090]",
             "datatype": "integer",
