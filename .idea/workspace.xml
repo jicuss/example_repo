@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d348772a-1eaf-46d5-8b50-56aeafe23ba1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.bumpversion.cfg" afterPath="$PROJECT_DIR$/.bumpversion.cfg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VERSION.txt" afterPath="$PROJECT_DIR$/VERSION.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/__init__.py" afterPath="$PROJECT_DIR$/example/__init__.py" />
-    </list>
+    <list default="true" id="d348772a-1eaf-46d5-8b50-56aeafe23ba1" name="Default" comment="" />
     <ignored path="example_repo.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -87,9 +83,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/setup.py" />
-        <option value="$PROJECT_DIR$/VERSION.txt" />
         <option value="$PROJECT_DIR$/example/__init__.py" />
         <option value="$PROJECT_DIR$/.bumpversion.cfg" />
+        <option value="$PROJECT_DIR$/VERSION.txt" />
       </list>
     </option>
   </component>
