@@ -1786,7 +1786,7 @@
         <calculation class='tableau' formula='[storage_mode] + 5 + 5 + 1' />
       </column>
       <column caption='sdcsdcsdc' datatype='integer' name='[Calculation_6664623797088473090]' role='measure' type='quantitative'>
-        <calculation class='tableau' formula='[CAN_ACCESS_FAQ_FEEDBACK] + 5' />
+        <calculation class='tableau' formula='[CAN_ACCESS_FAQ_FEEDBACK] + 5 + 3' />
       </column>
       <column caption='Default Locale' datatype='string' name='[DEFAULT_LOCALE]' role='dimension' type='nominal' />
       <column caption='Description' datatype='string' name='[DESCRIPTION]' role='dimension' type='nominal' />
