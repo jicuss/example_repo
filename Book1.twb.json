@@ -13,6 +13,17 @@
         {
             "calculation": {
                 "@class": "tableau",
+                "@formula": "[force_outer]"
+            },
+            "name": "[Calculation_6211237978748821504]",
+            "datatype": "integer",
+            "caption": "scdsdcs",
+            "role": "measure",
+            "type": "quantitative"
+        },
+        {
+            "calculation": {
+                "@class": "tableau",
                 "@formula": "[CAN_ACCESS_LOUNGE]*3 + 5"
             },
             "name": "[Calculation_6664623797010735104]",
@@ -35,7 +46,7 @@
         {
             "calculation": {
                 "@class": "tableau",
-                "@formula": "[CAN_ACCESS_FAQ_FEEDBACK]"
+                "@formula": "[CAN_ACCESS_FAQ_FEEDBACK] + 5"
             },
             "name": "[Calculation_6664623797088473090]",
             "datatype": "integer",
