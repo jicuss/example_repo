@@ -39,7 +39,7 @@
             },
             "name": "[Calculation_6664623797010735104]",
             "datatype": "integer",
-            "caption": "example_calc_field",
+            "caption": "new_example_calc_field",
             "role": "measure",
             "type": "quantitative"
         },
