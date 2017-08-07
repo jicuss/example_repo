@@ -46,7 +46,7 @@
         {
             "calculation": {
                 "@class": "tableau",
-                "@formula": "[storage_mode] + 5 + 5 + 1"
+                "@formula": "[storage_mode] + 5 + 5"
             },
             "name": "[Calculation_6664623797088100353]",
             "datatype": "integer",
