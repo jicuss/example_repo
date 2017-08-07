@@ -1777,7 +1777,7 @@
         <calculation class='tableau' formula='[force_outer]' />
       </column>
       <column caption='example_calc_field' datatype='integer' name='[Calculation_6664623797010735104]' role='measure' type='quantitative'>
-        <calculation class='tableau' formula='[CAN_ACCESS_LOUNGE]*3 + 5' />
+        <calculation class='tableau' formula='[CAN_ACCESS_LOUNGE]*3 + 5+4' />
       </column>
       <column caption='Calculation1' datatype='integer' name='[Calculation_6664623797088100353]' role='measure' type='quantitative'>
         <calculation class='tableau' formula='[storage_mode] + 5 + 5' />
