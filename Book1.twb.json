@@ -24,7 +24,18 @@
         {
             "calculation": {
                 "@class": "tableau",
-                "@formula": "[CAN_ACCESS_LOUNGE]*3 + 5"
+                "@formula": "[storage_mode] sd"
+            },
+            "name": "[Calculation_6211237978753257473]",
+            "datatype": "real",
+            "caption": "Calculation2",
+            "role": "measure",
+            "type": "quantitative"
+        },
+        {
+            "calculation": {
+                "@class": "tableau",
+                "@formula": "[CAN_ACCESS_LOUNGE]*3 + 5+4"
             },
             "name": "[Calculation_6664623797010735104]",
             "datatype": "integer",
