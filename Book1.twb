@@ -1783,7 +1783,7 @@
         <calculation class='tableau' formula='[CAN_ACCESS_LOUNGE]*3 + 5+4' />
       </column>
       <column caption='Calcu' datatype='integer' name='[Calculation_6664623797088100353]' role='measure' type='quantitative'>
-        <calculation class='tableau' formula='[storage_mode] + 5 + 5 + 1' />
+        <calculation class='tableau' formula='[storage_mode] + 5 + 5' />
       </column>
       <column caption='sdcsdcsdc' datatype='integer' name='[Calculation_6664623797088473090]' role='measure' type='quantitative'>
         <calculation class='tableau' formula='[CAN_ACCESS_FAQ_FEEDBACK] + 5 + 3' />
