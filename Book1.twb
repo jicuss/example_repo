@@ -1779,7 +1779,7 @@
       <column caption='Calculation2' datatype='real' name='[Calculation_6211237978753257473]' role='measure' type='quantitative'>
         <calculation class='tableau' formula='[storage_mode] sd' />
       </column>
-      <column caption='example_calc_field' datatype='integer' name='[Calculation_6664623797010735104]' role='measure' type='quantitative'>
+      <column caption='new_example_calc_field' datatype='integer' name='[Calculation_6664623797010735104]' role='measure' type='quantitative'>
         <calculation class='tableau' formula='[CAN_ACCESS_LOUNGE]*3 + 5+4' />
       </column>
       <column caption='Calculation1' datatype='integer' name='[Calculation_6664623797088100353]' role='measure' type='quantitative'>
