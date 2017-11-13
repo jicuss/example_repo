@@ -1,0 +1,15 @@
+{
+    "newpoc2": {
+        "prefix": "newpoc1746_0_",
+        "include_downsteam_deps": true
+    },
+    "uat": {
+        "prefix": "",
+        "include_downsteam_deps": true
+    },
+    "qa": {
+        "prefix": "qa_",
+        "include_downsteam_deps": false
+    }    
+    
+}

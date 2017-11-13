@@ -1,0 +1,1 @@
+drop table if exists ctg_analyst_layer_parity.qa_jci_bogus_data; create table ctg_analyst_layer_parity.qa_jci_bogus_data like care_ws.jci_bogus_data including projections;
